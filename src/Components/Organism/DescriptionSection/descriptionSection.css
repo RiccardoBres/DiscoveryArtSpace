@@ -1,0 +1,86 @@
+.container-description-section1 {
+    min-height: 120vh;
+    background-image: url(../../../Layout/Assets/Volume1/DSCF0289DSCF0289-1_Instagram_horizontal.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-description-section2 {
+    min-height: 120vh;
+    background-image: url(../../../Layout/Assets/Volume1/DSCF0321DSCF0321-1_Instagram_horizontal.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-description1 h2 {
+    color: #FEFBF6 !important;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.container-description1 p {
+    color: #FEFBF6;
+    text-align: justify;
+}
+
+.container-description2 h2 {
+    color: #FEFBF6 !important;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.container-description2 p {
+    color: #FEFBF6;
+    text-align: justify;
+}
+
+
+.container-description-section .col {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-description1 {
+    background-color: #a64ea069;
+    padding: 4rem 2.5rem;
+}
+
+.container-description2 {
+    background-color: #1ca69866;
+    padding: 4rem 2.5rem;
+}
+
+@media(max-width:650px) {
+    .container-description1 {
+        padding: 2rem 0.5rem;
+    }
+
+    .container-description2 {
+        padding: 2rem 1.5rem;
+    }
+
+    .container-description1 h2 {
+        font-size: 22px;
+    }
+
+    .container-description2 h2 {
+        font-size: 22px;
+
+    }
+}

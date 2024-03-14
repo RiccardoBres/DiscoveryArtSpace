@@ -1,0 +1,127 @@
+@import 'variables';
+@import 'mixins';
+@import 'navbar';
+@import 'hero';
+@import 'offCanvas';
+@import 'promo';
+@import 'carousel';
+
+
+
+
+/* sass --watch _main.scss output.css */
+
+// Stili globali
+body {
+    font-family: $font-primary;
+    background-color: $color-primary!important;
+    line-height: 1.6;
+}
+
+p {
+    font-family: $font-secondary;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-primary;
+    font-weight: bold!important;
+    color: $color-primary;
+}
+
+
+a {
+    color: $color-secondary;
+    text-decoration: none;
+    font-family: $font-secondary;
+
+}
+
+a:hover {
+    color: $color-tertiary;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursive{
+    font-family: $font-tertiary;
+}
+
+// Classi utilità
+.button {
+    padding: 10px 20px;
+    background-color: $color-tertiary;
+    color: $color-primary;
+    font-family: $font-tertiary;
+    border: none;
+    max-width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &.slide-from-left {
+        @extend .slide-from-left;
+    }
+    &:hover {
+        background-color: $color-primary;
+        color: $color-tertiary;
+        border: none;
+    }
+}
+.button-light {
+    padding: 10px 20px;
+    background-color: $color-primary;
+        color: $color-tertiary;
+    
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &.slide-from-left {
+        @extend .slide-from-left;
+    }
+    &:hover {
+        background-color: $color-light-green;
+    color: $color-primary;
+    }
+}
+
+.small-title {
+    font-size: $text-small-title;
+}
+
+.medium-title {
+    font-size: $text-medium-title;
+
+}
+
+.big-title {
+    font-size: $text-large-title;
+
+}
+
+.very-big-title {
+    font-size: $text-extra-large-title;
+
+}
+
+.small-p {
+    font-size: $text-small-p
+}
+
+.medium-p {
+    font-size: $text-medium-p
+}
+
+.big-p {
+    font-size: $text-large-p
+}
+
+.very-big-p {
+    font-size: $text-extra-large-p;
+}

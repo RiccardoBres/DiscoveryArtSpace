@@ -1,0 +1,30 @@
+.offcanvas{
+    background-color: $color-tertiary!important;
+    color: $color-primary!important;
+}
+.offcanvas-header{
+    display: flex!important;
+    justify-content: end!important;
+    color: $color-primary!important;
+    width: 100%!important;
+}
+.info{
+    color: lightgray;
+}
+.offcanvas-header .btn-close {
+    color: $color-primary;
+
+}
+.offcanvas-body{
+    padding: 5rem 2rem 2rem!important;
+    display: flex;
+    flex-direction: column;
+
+}
+.offcanvas-body h2{
+    cursor: pointer!important;
+    transition: all 0.2s;
+}
+.offcanvas-body h2:hover{
+    color: $color-light-green!important;
+}
