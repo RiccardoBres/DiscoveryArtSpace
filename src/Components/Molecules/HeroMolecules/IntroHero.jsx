@@ -3,7 +3,7 @@ import CustomParagraph from '../../Atoms/CustomParagraph';
 import CustomButton from '../../Atoms/CustomButton';
 import CustomTitle from '../../Atoms/CustomTitle';
 import CustomImage from '../../Atoms/CustomImage';
-import LocandinaHero from '../../../Layout/Assets/LocandinaHero.webp'
+import LocandinaHero from '../../../Layout/Assets/LocandinaHero_files/238797899_377072817198537_6348369232657706514_n.jpg'
 
 const IntroHero = () => {
     return (

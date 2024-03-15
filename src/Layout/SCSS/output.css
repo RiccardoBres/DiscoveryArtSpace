@@ -67,14 +67,12 @@
 .container-hero {
   min-height: 100vh;
   background-color: #F2ACD3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 5rem;
 }
 
 .container-intro-hero img {
   width: auto;
-  max-width: 20rem;
+  max-width: 25rem;
   height: auto;
   animation: rotateAnimation 1s linear;
 }
@@ -206,6 +204,7 @@
 
 .promo-item p {
   text-align: justify;
+  margin-bottom: 0;
 }
 
 .first {
@@ -228,6 +227,29 @@
     flex-direction: column;
   }
 }
+.container-arrow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease-in-out;
+  font-size: 25px;
+  margin: 0;
+}
+
+.container-arrow:hover .arrow-icon {
+  transform: translateX(15px);
+}
+
+.container-arrow:hover hr {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
 .carousel-section {
   display: flex;
   justify-content: center;
