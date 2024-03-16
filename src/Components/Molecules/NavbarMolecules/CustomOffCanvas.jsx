@@ -8,7 +8,7 @@ const CustomOffCanvas = ({ show, onHide }) => {
   const navigate = useNavigate();
 
   const handleArtistPage = () => {
-    navigate('/artists');
+    navigate('/artist');
     console.log('hello world');
   };
 
@@ -21,7 +21,7 @@ const CustomOffCanvas = ({ show, onHide }) => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="container-list-item">
-            <CustomTitle text='Home' className='medium-title' onClick={() => navigate('/home')} />
+            <CustomTitle text='Home' className='medium-title' onClick={() => navigate('/')} />
             <CustomTitle text='LineUp' className='medium-title' onClick={() => navigate('/lineup')} />
             <CustomTitle text='Ticket' className='medium-title' onClick={() => navigate('/ticket')} />
             <CustomTitle text='Beyond the Artist' className='medium-title' onClick={handleArtistPage} />

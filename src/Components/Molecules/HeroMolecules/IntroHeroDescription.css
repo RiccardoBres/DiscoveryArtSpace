@@ -1,0 +1,42 @@
+.organizers-section {
+    margin-top: 50px;
+}
+
+.organizers-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.organizer-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.organizer-card {
+    text-align: center;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.organizer-image {
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #A64EA0; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+@media(max-width:650px){
+    .organizer-image{
+        width: 100%;
+        height: auto;
+    }
+}
+.organizer-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}

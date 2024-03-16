@@ -11,6 +11,7 @@
   right: 0%;
   max-height: 120px;
   z-index: 99;
+  transition: all 1s;
 }
 .custom-navbar .navbar-content {
   display: flex;
@@ -50,6 +51,10 @@
   width: 1px;
 }
 
+.scrolled {
+  background-color: rgba(133, 79, 140, 0.6901960784);
+}
+
 @media screen and (max-width: 479px) {
   .custom-navbar {
     padding-left: 1rem;
@@ -67,14 +72,25 @@
 .container-hero {
   min-height: 100vh;
   background-color: #F2ACD3;
-  padding-top: 5rem;
+  padding-top: 15rem;
+}
+
+.container-hero-description {
+  min-height: 120vh;
+  background-color: #1CA698;
+  text-align: center !important;
+  color: #FEFBF6;
+  padding: 4rem 2.5rem;
 }
 
 .container-intro-hero img {
   width: auto;
-  max-width: 25rem;
+  max-width: 30rem;
   height: auto;
   animation: rotateAnimation 1s linear;
+  /*     border: 2px solid black; 
+   */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .container-intro-hero {
@@ -121,6 +137,12 @@
   .intro-hero p {
     width: 100% !important;
     text-align: center;
+  }
+}
+@media (max-width: 550px) {
+  .container-hero {
+    padding-bottom: 2rem;
+    padding-top: 0;
   }
 }
 .intro-hero {

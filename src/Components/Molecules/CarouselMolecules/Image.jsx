@@ -32,7 +32,6 @@ export function Image({ alt, imagePath, index, aspectRatio }) {
             className="carousel-section"
             aspectRatio={aspectRatio}
         >
-
             <motion.div
                 className={`carousel-image-container ${aspectRatio === "2/3" ? 'vertical' : 'horizontal'}`}
             >

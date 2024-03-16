@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import Logo from '../../../Layout/Assets/Logo.jpg'
+import Logo from '../../../Layout/Assets/Grafiche/Logo.jpg'
 import CustomParagraph from '../../Atoms/CustomParagraph';
 import CustomButton from '../../Atoms/CustomButton';
 import CustomTitle from '../../Atoms/CustomTitle';

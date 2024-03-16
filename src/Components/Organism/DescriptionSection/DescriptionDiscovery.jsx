@@ -4,7 +4,7 @@ import './descriptionSection.css';
 import CustomTitle from '../../Atoms/CustomTitle';
 import CustomParagraph from '../../Atoms/CustomParagraph';
 import PromoItem from '../../Molecules/PromoMolecules/PromoItem';
-import Hero from '../HeroSection/Hero';
+import DescriptionHero from './DescriptionHero';
 
 const DescriptionDiscovery = () => {
     return (
@@ -25,7 +25,7 @@ const DescriptionDiscovery = () => {
                 </div>
             </Row>
         </Container>
-        <Hero/>
+        <DescriptionHero/>
         <Container fluid className='container-description-section2'>
             <Row>
                 <div className='container-description2'>

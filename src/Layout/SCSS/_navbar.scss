@@ -11,13 +11,15 @@
     right: 0%;
     max-height: 120px;
     z-index: 99;
+    transition: all 1s;
 
     .navbar-content {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-
+      
+     
     .navbar-content h2 {
         font-size: 18px;
     }
@@ -57,6 +59,10 @@
     }
     
 }
+.scrolled {
+    background-color: #854f8cb0; 
+  }
+
 
 @media screen and (max-width: 479px) {
     .custom-navbar{

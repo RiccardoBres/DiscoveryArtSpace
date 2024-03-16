@@ -70,7 +70,9 @@
     .container-description1 {
         padding: 2rem 0.5rem;
     }
-
+    .container-hero-description{
+        min-height: 100vh;
+    }
     .container-description2 {
         padding: 2rem 1.5rem;
     }
