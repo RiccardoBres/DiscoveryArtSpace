@@ -5,6 +5,7 @@
 @import 'offCanvas';
 @import 'promo';
 @import 'carousel';
+@import 'footer';
 
 
 
@@ -74,10 +75,9 @@ a:hover {
     }
 }
 .button-light {
-    padding: 10px 20px;
+    padding: 5px 15px ;
     background-color: $color-primary;
-        color: $color-tertiary;
-    
+    color: $color-tertiary;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -86,7 +86,7 @@ a:hover {
         @extend .slide-from-left;
     }
     &:hover {
-        background-color: $color-light-green;
+        background-color: $color-tertiary;
     color: $color-primary;
     }
 }

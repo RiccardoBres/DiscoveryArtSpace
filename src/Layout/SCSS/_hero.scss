@@ -1,22 +1,40 @@
 .container-hero {
     min-height: 100vh;
     background-color: $color-secondary;
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 .container-hero-description{
-    min-height: 120vh;
+    min-height: 100vh;
     background-color: $color-light-green;
     text-align: center!important;
     color: $color-primary;
     padding: 4rem 2.5rem;
 }
+.container-intro-gallery-hero{
+    min-height: 100vh;
+    background-color: $color-tertiary;
+    text-align: center!important;
+    color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 0.5rem;
+    padding-top: 4rem;
 
+    .container-item-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+}
 .container-intro-hero img {
     width: auto;
     max-width: 30rem;
     height: auto;
-    animation: rotateAnimation 1s linear;
-/*     border: 2px solid black; 
+/*     animation: rotateAnimation 1s linear;
+ *//*     border: 2px solid black; 
  */    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
 
 }
@@ -78,6 +96,12 @@
         padding-bottom: 2rem;
         padding-top: 0;
      } 
+     .container-intro-gallery-hero{
+        /* padding: 4rem 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0; */
+     }
 
 }
 

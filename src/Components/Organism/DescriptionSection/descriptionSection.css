@@ -1,5 +1,5 @@
 .container-description-section1 {
-    min-height: 120vh;
+    min-height: 100vh;
     background-image: url(../../../Layout/Assets/Volume1/DSCF0289DSCF0289-1_Instagram_horizontal.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -12,8 +12,8 @@
 }
 
 .container-description-section2 {
-    min-height: 120vh;
-    background-image: url(../../../Layout/Assets/Volume1/DSCF0321DSCF0321-1_Instagram_horizontal.jpg);
+    min-height: 100vh;
+    background-image: url(../../../Layout/Assets/Volume1/DSCF0732DSCF0732-1_Instagram_horizontal.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

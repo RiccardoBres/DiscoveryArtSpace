@@ -72,24 +72,43 @@
 .container-hero {
   min-height: 100vh;
   background-color: #F2ACD3;
-  padding-top: 15rem;
+  padding-top: 5rem;
 }
 
 .container-hero-description {
-  min-height: 120vh;
+  min-height: 100vh;
   background-color: #1CA698;
   text-align: center !important;
   color: #FEFBF6;
   padding: 4rem 2.5rem;
 }
 
+.container-intro-gallery-hero {
+  min-height: 100vh;
+  background-color: #A64EA0;
+  text-align: center !important;
+  color: #FEFBF6;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 0 0.5rem;
+  padding-top: 4rem;
+}
+.container-intro-gallery-hero .container-item-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
 .container-intro-hero img {
   width: auto;
   max-width: 30rem;
   height: auto;
-  animation: rotateAnimation 1s linear;
-  /*     border: 2px solid black; 
-   */
+  /*     animation: rotateAnimation 1s linear;
+   */ /*     border: 2px solid black; 
+*/
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -143,6 +162,12 @@
   .container-hero {
     padding-bottom: 2rem;
     padding-top: 0;
+  }
+  .container-intro-gallery-hero {
+    /* padding: 4rem 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0; */
   }
 }
 .intro-hero {
@@ -235,7 +260,7 @@
 }
 
 .third {
-  background-color: #A64EA0;
+  background-color: #854F8C;
   color: #FEFBF6;
 }
 
@@ -379,6 +404,12 @@
     transform: translateY(-10px);
   }
 }
+.footer {
+  background-color: #854F8C;
+  padding-top: 2rem;
+  color: #FEFBF6;
+}
+
 /* sass --watch _main.scss output.css */
 body {
   font-family: "Raleway", sans-serif;
@@ -437,7 +468,7 @@ a:hover {
 }
 
 .button-light {
-  padding: 10px 20px;
+  padding: 5px 15px;
   background-color: #FEFBF6;
   color: #A64EA0;
   border: none;
@@ -446,7 +477,7 @@ a:hover {
   transition: background-color 0.3s ease;
 }
 .button-light:hover {
-  background-color: #1CA698;
+  background-color: #A64EA0;
   color: #FEFBF6;
 }
 
