@@ -1,3 +1,9 @@
+.container-intro-hero-description h2{
+    font-weight: 900 !important;
+    line-height: 100%;
+    margin: 10px 0;
+}
+
 .organizers-section {
     margin-top: 50px;
 }

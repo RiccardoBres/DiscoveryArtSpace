@@ -76,13 +76,14 @@
 @media(max-width:650px) {
     .container-description1 {
         padding: 3rem 1.5rem;
-
+        background-size: auto!important;
     }
     .container-hero-description{
         min-height: 100vh;
     }
     .container-description2 {
         padding: 3rem 1.5rem;
+        background-size: auto!important;
     }
     .container-description1 h2 {
         font-size: 22px;

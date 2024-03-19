@@ -17,7 +17,7 @@ const IntroHero = () => {
                 <div className="intro-hero">
                     <CustomTitle text='1-DAY, 2-DAY & 4-DAY TICKETS ON-SALE NOW!' className='title-hero' />
                     <CustomParagraph text='GET YOURS STARTING AT $25 DOWN WITH A LAYAWAY PLAN.' className='small-title w-75' />
-                    <CustomButton text='BUY TICKETS' className='button mt-4' />
+                    <CustomButton text='BUY TICKETS' className='button my-1' />
                 </div>
                 <CustomImage src={LocandinaHero} />
             </div>
