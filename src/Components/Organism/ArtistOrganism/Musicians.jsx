@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Row} from 'react-bootstrap';
+import './Artists.css'
 import MusiciansCard from '../../Molecules/MusiciansMolecules/MusiciansCard';
 import {MusiciansFirstEditionMetadata, MusiciansSecondEditionMetadata  } from '../../Molecules/ArtistMolecules/ArtistAndMusiciansDataset';
 

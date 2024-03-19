@@ -1,0 +1,35 @@
+.carousel-hero{
+    margin-top: 3rem;
+}
+.carousel-hero h2{
+    margin: 0;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    line-height: 1.2;
+}
+.parallax {
+    overflow: hidden;
+    letter-spacing: -2px;
+    line-height: 0.8;
+    margin: 0 auto;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+  
+  .parallax .scroller {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 64px;
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .parallax span {
+    display: block;
+    margin-right: 30px;
+  }
+  

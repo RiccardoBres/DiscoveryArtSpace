@@ -19,15 +19,12 @@ const IntroHeroDescription = () => {
                     <div className="organizer-cards">
                         <div className="organizer-card">
                             <CustomImage src={Person1} alt="Organizer 1" className="organizer-image" />
-                            <CustomTitle text="Jasmen Bresolin" className="organizer-name medium-p" />
                         </div>
                         <div className="organizer-card">
                             <CustomImage src={Person2} alt="Organizer 2" className="organizer-image" />
-                            <CustomTitle text="Lorenzo Coccheo Filetti" className="organizer-name medium-p" />
                         </div>
                         <div className="organizer-card">
                             <CustomImage src={Person3} alt="Organizer 3" className="organizer-image" />
-                            <CustomTitle text="Fabio Saccardo" className="organizer-name medium-p" />
                         </div>
                     </div>
                 </div>

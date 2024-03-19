@@ -9,7 +9,7 @@ const CustomOffCanvas = ({ show, onHide }) => {
 
   const handleArtistPage = () => {
     navigate('/artist');
-    console.log('hello world');
+    window.scrollTo(0, 0); 
   };
 
   const offCanvasTitle = ['Home', 'LineUp', 'Ticket', 'Beyond the Artist', 'Beyond the Music'];

@@ -1,5 +1,5 @@
 .custom-navbar {
-    background-color: $color-dark;
+    background-color: $color-night;
     color: $color-primary;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -9,7 +9,7 @@
     bottom: auto;
     left: 0%;
     right: 0%;
-    max-height: 120px;
+    max-height: 100px;
     z-index: 99;
     transition: all 1s;
 
@@ -21,7 +21,7 @@
       
      
     .navbar-content h2 {
-        font-size: 18px;
+        font-size: 12px;
     }
     .navbar-content svg {
         font-size: 18px;
@@ -45,14 +45,14 @@
 
     .logo {
         width: auto;
-        max-width: 70px;
+        max-width: 55px;
         flex-shrink: 0;
         border-radius: 50%;
         margin: 5px;
     }
 
     .separator {
-        height: 80px;
+        height: 50px;
         background-color: $color-primary;
         border: none;
         width: 1px;
@@ -60,7 +60,7 @@
     
 }
 .scrolled {
-    background-color: #854f8cb0; 
+    background-color: rgb(28, 17, 30); 
   }
 
 

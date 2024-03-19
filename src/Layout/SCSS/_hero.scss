@@ -1,19 +1,29 @@
 .container-hero {
     min-height: 100vh;
     background-color: $color-secondary;
-    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2.5rem;
+
+    .row{
+        overflow: hidden;
+    }
+    
 }
-.container-hero-description{
+
+.container-hero-description {
     min-height: 100vh;
     background-color: $color-light-green;
-    text-align: center!important;
+    text-align: center !important;
     color: $color-primary;
     padding: 4rem 2.5rem;
 }
-.container-intro-gallery-hero{
+
+.container-intro-gallery-hero {
     min-height: 100vh;
     background-color: $color-tertiary;
-    text-align: center!important;
+    text-align: center !important;
     color: $color-primary;
     display: flex;
     flex-direction: column;
@@ -21,28 +31,47 @@
     padding: 0 0.5rem;
     padding-top: 4rem;
 
-    .container-item-cards{
+    .container-item-cards {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 4rem;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 5rem;
+    }
+    h2{
+        color: $color-night;
+    }
+
+    .sponsor-logo {
+        max-width: 70%;
+        width: 100%;
+        height: auto;
+        max-width: 220px;
     }
 }
+
 .container-intro-hero img {
     width: auto;
-    max-width: 30rem;
+    max-width: 25rem;
     height: auto;
-/*     animation: rotateAnimation 1s linear;
- *//*     border: 2px solid black; 
- */    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+    /*     animation: rotateAnimation 1s linear;
+ */
+    /*     border: 2px solid black; 
+ */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 
 }
 
 .container-intro-hero {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     display: flex;
+
+    @media(max-width:739px){
+        .layout-hero{
+            flex-direction: column;
+        }
+    }
 
 }
 
@@ -91,18 +120,12 @@
     }
 
 }
+
 @media(max-width: 550px) {
-     .container-hero{
+    .container-hero {
         padding-bottom: 2rem;
         padding-top: 0;
-     } 
-     .container-intro-gallery-hero{
-        /* padding: 4rem 0;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 0; */
-     }
-
+    }
 }
 
 
@@ -112,7 +135,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 48%;
+    width: 50%;
+    padding-top: 5rem;
 }
 
 @keyframes rotateAnimation {

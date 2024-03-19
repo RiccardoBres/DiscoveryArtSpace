@@ -2,12 +2,12 @@ import {useEffect, useState} from 'react';
 import Nav from '../../Molecules/NavbarMolecules/Nav';
 
 const CustomNavbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false); // Stato per tenere traccia dello scroll
+  const [isScrolled, setIsScrolled] = useState(false); 
 
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 900) { 
+      if (window.scrollY > 10) { 
         setIsScrolled(true);
       } else {
         setIsScrolled(false);

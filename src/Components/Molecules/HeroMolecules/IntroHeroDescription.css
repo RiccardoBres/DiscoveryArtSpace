@@ -26,15 +26,22 @@
     width: 90%;
     height: auto;
     border-radius: 50%;
-    border: 3px solid #A64EA0; 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    border: 3px solid #A64EA0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-@media(max-width:650px){
-    .organizer-image{
-        width: 100%;
+
+@media(max-width:650px) {
+    .organizer-image {
+        width: 90%;
         height: auto;
+        margin: 15px;
+    }
+
+    .organizer-cards {
+        flex-direction: column;
     }
 }
+
 .organizer-name {
     margin-top: 10px;
     font-size: 18px;

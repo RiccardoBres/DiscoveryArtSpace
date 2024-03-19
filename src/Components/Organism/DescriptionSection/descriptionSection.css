@@ -32,7 +32,7 @@
 
 .container-description1 p {
     color: #FEFBF6;
-    text-align: justify;
+    text-align: center;
 }
 
 .container-description2 h2 {
@@ -43,7 +43,7 @@
 
 .container-description2 p {
     color: #FEFBF6;
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -57,32 +57,49 @@
 }
 
 .container-description1 {
-    background-color: #a64ea069;
-    padding: 4rem 2.5rem;
+    background-color: #a64ea0a1;
+    min-height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-description2 {
-    background-color: #1ca69866;
-    padding: 4rem 2.5rem;
-}
+    background-color: #1ca69896;
+    min-height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
 
 @media(max-width:650px) {
     .container-description1 {
-        padding: 2rem 0.5rem;
+        padding: 3rem 1.5rem;
+
     }
     .container-hero-description{
         min-height: 100vh;
     }
     .container-description2 {
-        padding: 2rem 1.5rem;
+        padding: 3rem 1.5rem;
     }
-
     .container-description1 h2 {
         font-size: 22px;
     }
-
     .container-description2 h2 {
         font-size: 22px;
-
+    }
+    .container-description1 p{
+        font-size: 16px;
+        line-height: 1.1;
+        text-align: justify;
+        margin: 10px 0;
+    }
+    .container-description2 p{
+        font-size: 16px;
+        line-height: 1.1;
+        text-align: justify!important;
+        margin: 10px 0;
     }
 }

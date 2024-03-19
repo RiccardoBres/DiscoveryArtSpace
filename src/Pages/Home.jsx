@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import CustomNavbar from '../Components/Organism/CustomNavbar/CustomNavbar';
 import Hero from '../Components/Organism/HeroSection/Hero';
 import PromoItem from '../Components/Molecules/PromoMolecules/PromoItem';
@@ -8,6 +8,10 @@ import Footer from '../Components/Organism/FooterOrganism/Footer';
 
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+}, [])
   return (
     <>
     <CustomNavbar/>
