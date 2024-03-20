@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform, useMotionValue, useVelocity, useAnimationFrame } from "framer-motion";
 import { wrap } from "@motionone/utils";
-import CustomTitle from "../../Atoms/CustomTitle";
 import "./CarouselHero.css";
 
 function ParallaxText({ children, baseVelocity = 100 }) {
@@ -48,8 +47,8 @@ function ParallaxText({ children, baseVelocity = 100 }) {
 function Carousel() {
     return (
         <section className="carousel-hero">
-            <ParallaxText baseVelocity={-5}><CustomTitle text='DJ GRUFF BASSI MAESTRO  LORENZO COCHEO  FABIO SACCARDO' className='medium-p' /></ParallaxText>
-            <ParallaxText baseVelocity={5}><CustomTitle text='DJ GRUFF BASSI MAESTRO  LORENZO COCHEO  FABIO SACCARDO' className='medium-p'/></ParallaxText>
+            <ParallaxText baseVelocity={-5}>Dj Gruff Bassi Maestro</ParallaxText>
+            <ParallaxText baseVelocity={5}>LORENZO COCHEO  FABIO SACCARDO</ParallaxText>
         </section>
     );
 }

@@ -74,16 +74,24 @@
     justify-content: center;}
 
 @media(max-width:650px) {
+   
+    .container-description-section1{
+        background-position:unset;
+        background-size: auto;
+    }
+    .container-description-section2{
+        background-size: auto;
+    }
     .container-description1 {
         padding: 3rem 1.5rem;
-        background-size: auto!important;
+        background-color: #a64ea083;
     }
     .container-hero-description{
         min-height: 100vh;
     }
     .container-description2 {
         padding: 3rem 1.5rem;
-        background-size: auto!important;
+        background-color: #1ca6987a;
     }
     .container-description1 h2 {
         font-size: 22px;

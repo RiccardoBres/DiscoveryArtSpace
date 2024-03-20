@@ -11,7 +11,7 @@ const Hero = () => {
         <Col lg={12} md={12} sm={12}>
           <IntroHero />
         </Col>
-        <Col lg={12} md={12} sm={12}>
+        <Col lg={12} md={12} sm={12} className='p-0'>
           <CarouselHero />
         </Col>
       </Row>
