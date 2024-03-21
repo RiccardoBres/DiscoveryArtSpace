@@ -22,8 +22,8 @@ const CustomOffCanvas = ({ show, onHide }) => {
         <Offcanvas.Body>
           <div className="container-list-item">
             <CustomTitle text='Home' className='medium-title' onClick={() => navigate('/')} />
-            <CustomTitle text='LineUp' className='medium-title' onClick={() => navigate('/lineup')} />
-            <CustomTitle text='Ticket' className='medium-title' onClick={() => navigate('/ticket')} />
+            <CustomTitle text='LineUp' className='medium-title' /* onClick={() => navigate('/lineup')} */ />
+            <CustomTitle text='Ticket' className='medium-title' /* onClick={() => navigate('/ticket')} */ />
             <CustomTitle text='Beyond the Artist' className='medium-title' onClick={handleArtistPage} />
             <CustomTitle text='Beyond the Music' className='medium-title' onClick={() => navigate('/musicians')} />
           </div>

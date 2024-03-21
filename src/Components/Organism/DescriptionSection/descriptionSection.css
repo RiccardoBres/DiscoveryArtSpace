@@ -57,21 +57,26 @@
 }
 
 .container-description1 {
-    background-color: #a64ea0a1;
+    background-color: #a64ea048;
     min-height: 18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    backdrop-filter: blur(2px);;
 }
 
 .container-description2 {
-    background-color: #1ca69896;
+    background-color: #1ca6983f;
     min-height: 18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    backdrop-filter: blur(3px);;
+
+}
+
 
 @media(max-width:650px) {
    
@@ -83,15 +88,13 @@
         background-size: auto;
     }
     .container-description1 {
-        padding: 3rem 1.5rem;
-        background-color: #a64ea083;
+        padding: 1.5rem 1rem;
     }
     .container-hero-description{
         min-height: 100vh;
     }
     .container-description2 {
-        padding: 3rem 1.5rem;
-        background-color: #1ca6987a;
+        padding: 1.5rem 1rem;
     }
     .container-description1 h2 {
         font-size: 22px;
