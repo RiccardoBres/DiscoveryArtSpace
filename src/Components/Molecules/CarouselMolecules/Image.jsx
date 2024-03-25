@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import CustomImage from "../../Atoms/CustomImage";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function useParallax(value, distance) {
     return useTransform(value, [0, 1], [`-${distance}`, distance]);
@@ -39,7 +41,7 @@ export function Image({ alt, imagePath, index, aspectRatio }) {
                     className={`${pulsing ? "pulse" : ""} loadable`}
                     style={{ width: "auto", maxWidth: "100%", background: "#ccc" }}
                 >
-                    <motion.img
+                    {/* <motion.img
                         initial={{ height: "16rem", opacity: 0 }}
                         animate={{
                             height: imageLoading ? "16rem" : "auto",
@@ -52,10 +54,19 @@ export function Image({ alt, imagePath, index, aspectRatio }) {
                         onLoad={() => setImageLoading(false)}
                         onError={() => setImageLoading(false)}
                         width="100%"
-                        src={imagePath}
+                        src={}
                         alt={alt}
                         className="carousel-image"
                         loading="lazy"
+                    /> */}
+                    <LazyLoadImage
+                        alt={alt}
+                        width='100%'
+                        height='auto'
+                        loading='lazy'
+                        src={imagePath} 
+                        placeholderSrc={imagePath}
+                        effect='blur'
                     />
                 </div>
             </motion.div>

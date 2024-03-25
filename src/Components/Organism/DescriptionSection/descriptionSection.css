@@ -79,14 +79,6 @@
 
 
 @media(max-width:650px) {
-   
-    .container-description-section1{
-        background-position:unset;
-        background-size: auto;
-    }
-    .container-description-section2{
-        background-size: auto;
-    }
     .container-description1 {
         padding: 1.5rem 1rem;
     }
